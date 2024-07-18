@@ -4,7 +4,8 @@ This python based tool can be used to discover API keys, access tokens, and othe
 **Note**: Since the tool is entirely based on REGEX there will be false positives, make sure to check manually for confirmation.
 
 ## Thank you
-This script forked from @m4ll0k's https://github.com/m4ll0k/SecretFinder 
+
+This script is forked from [@m4ll0k's SecretFinder](https://github.com/m4ll0k/SecretFinder). I modified the script to run against a list of URLs and display a neat output in the terminal or as an HTML file.
 
 **Sample HTML output:**
 
