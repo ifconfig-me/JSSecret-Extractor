@@ -15,6 +15,21 @@ import xml.etree.ElementTree as ET
 from html import escape
 from colorama import init, Fore, Style
 
+def show_banner():
+    banner = f"""
+ {BOLD_BLUE} ███▄    █  ▄▄▄    ██▒   █▓ ███▄    █ {NC}
+ {BOLD_BLUE} ██ ▀█   █ ▒████▄ ▓██░   █▒ ██ ▀█   █ {NC}
+ {BOLD_BLUE}▓██  ▀█ ██▒▒██  ▀█▄▓██  █▒░▓██  ▀█ ██▒{NC}
+ {BOLD_BLUE}▓██▒  ▐▌██▒░██▄▄▄▄██▒██ █░░▓██▒  ▐▌██▒{NC}
+ {BOLD_BLUE}▒██░   ▓██░ ▓█   ▓██▒▒▀█░  ▒██░   ▓██░{NC}
+ {BOLD_BLUE}░ ▒░   ▒ ▒  ▒▒   ▓▒█░░ ▐░  ░ ▒░   ▒ ▒ {NC}
+ {BOLD_BLUE}░ ░░   ░ ▒░  ▒   ▒▒ ░░ ░░  ░ ░░   ░ ▒░{NC}
+ {BOLD_BLUE}   ░   ░ ░   ░   ▒     ░░     ░   ░ ░ {NC}
+ {BOLD_BLUE}         ░       ░  ░   ░           ░ {NC}
+ {BOLD_BLUE}                       ░               {NC}
+    """
+    print(banner)
+
 init(autoreset=True)
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
